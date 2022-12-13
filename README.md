@@ -52,7 +52,32 @@ Nu kan je inloggen zonder usename password
       C:\windows\system32>
 
 
-5. **Git installeren**
+
+5. **Username en e-mail toevoegen aan GitConbfig**
+
+      C:\Users\Mathijs\Python\Hello World>git config --global user.name Toasy-Bumbo
+
+      C:\Users\Mathijs\Python\Hello World>git config --global user.email m.w.hagenaar@kpnplanet.nl
+
+      C:\Users\Mathijs\Python\Hello World>git config --list
+      diff.astextplain.textconv=astextplain
+      filter.lfs.clean=git-lfs clean -- %f
+      filter.lfs.smudge=git-lfs smudge -- %f
+      filter.lfs.process=git-lfs filter-process
+      filter.lfs.required=true
+      http.sslbackend=openssl
+      http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+      core.autocrlf=true
+      core.fscache=true
+      core.symlinks=false
+      pull.rebase=false
+      credential.helper=manager
+      credential.https://dev.azure.com.usehttppath=true
+      init.defaultbranch=master
+      user.name=<Git username>
+      user.email=<test>@domain.com
+      
+6. **Git installeren**
 
   [git download site](https://git-scm.com/download/win)
 
