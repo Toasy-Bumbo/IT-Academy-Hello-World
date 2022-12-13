@@ -16,8 +16,10 @@ ssh-keygen -t ed25519 -C "test@domain.com"
 
 Gebruik hierbij je eigen e-mail addres waarmee je in Github inlogd
 
-kopoieer de publieke sleutel uit de ~/.ssh directory uit het bestad met de naam oals in de stappen hierboven is aangee=geven.
-Let erop om de pubblieke en niet de privatre slleutel te kopieren . Kopieer de publieke sleutel in Gitlab/GitHub
+Kopieer de publieke sleutel uit de ~/.ssh directory uit het bestand met de naam zoals in de stappen hierboven is aangegeven (C:\Users\<USERNAME>\.ssh\id_rsa.pub).
+Let erop om de publieke en niet de private sleutel (C:\Users\<USERNAME>\.ssh\id_rsa)te kopieren . Kopieer de publieke sleutel in Gitlab/GitHub
+IN GitHub, ga naar je profile, klik op settings en ga naar SSH- GPY key.
+Klik New SSH key
 
 C:\windows\system32>ssh-keygen
 Generating public/private rsa key pair.
