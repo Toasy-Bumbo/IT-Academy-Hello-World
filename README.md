@@ -2,7 +2,21 @@
 First repository
 1. _**Inleiding**_
 
-Niets te melden...
+Modules per project gebruiken omdat versies veel verschillen.
+Gebruik hiervoor een virtual envionment (VENV)
+
+      pip install venv
+
+installeren in projectdirectory:
+	python3 -m venv Galgje  (C:\Users\Mathijs\AppData\Local\Programs\Python>python -m venv Galgje)
+	of ctrl shift p ->python create environment
+	(de-installeren door dir te verwijderen)
+	'Open Folder' in Visual Code?
+
+github =public
+gitlab = private
+git repository = project
+
 
 3. **Hoofdstuk 1 Wat is dit?**
 
@@ -12,7 +26,9 @@ Dit is een MarkDown file waarin interresante informatie over dit project staat.
 
 [Beste zoekmachine](https://duckduckgo.com)
 
-4. **SSH sleutel maken**
+4. **Koppeling maken tussen Visual Code en GitHub**
+
+4.1. **SSH sleutel maken**
 
 ssh-keygen -t ed25519 -C "test@domain.com"
 
@@ -53,7 +69,7 @@ Nu kan je inloggen zonder usename password
 
 
 
-5. **Username en e-mail toevoegen aan GitConbfig**
+4.2. **Username en e-mail toevoegen aan GitConbfig**
 
       C:\Users\Mathijs\Python\Hello World>git config --global user.name Toasy-Bumbo
 
@@ -77,7 +93,7 @@ Nu kan je inloggen zonder usename password
       user.name=<Git username>
       user.email=<test>@domain.com
       
-6. **Git installeren**
+4.3. **Git installeren**
 
   [git download site](https://git-scm.com/download/win)
 
@@ -106,7 +122,7 @@ Nu kan je inloggen zonder usename password
       
       Nu staat de Git clone op je computer.
       
-  6. **Wat heb je nu?**
+4.4. **Wat heb je nu?**
       
       Er is een working dorectory = Hier staan je bestanden
       Index = een buffer zone
