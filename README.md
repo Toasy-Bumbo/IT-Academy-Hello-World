@@ -117,7 +117,8 @@ Nu kan je inloggen zonder usename password
       Maak nun een wijziging in readme.md aan en het wijzigd nu ook in GitHub ;)
       
       _Dit is een wijziging vanuit Visual Code_
-      _Deze wijziging kan je vanuit Visual COde naar Github dorvoeren door in Visual Code op het commit icoon (twee pijltjes in een cirkel) linksonder in het scherm te klikken!_ 
+      
+      _Deze wijziging kan je vanuit Visual COde naar Github doorvoeren door in Visual Code het bestand readme.md te saven, klik op het sync symbool (in het linker menu onder het verGROOTglas), vul hier iets in in het commentoar veld en klik op 'V Commit' !_ 
       
   
   
