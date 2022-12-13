@@ -2,6 +2,8 @@
 First repository
 1. _**Inleiding**_
 
+Niets te melden...
+
 3. **Hoofdstuk 1 Wat is dit?**
 
 Dit is een MarkDown file waarin interresante informatie over dit project staat.
@@ -76,7 +78,16 @@ Nu kan je inloggen zonder usename password
           Resolving deltas: 100% (8/8), done.
 
           C:\Users\Mathijs\Python\Hello World>
-  
+      
+      Nu staat de Git clone op je computer.
+      
+  6. **Wat heb je nu?**
+      
+      Er is een working dorectory = Hier staan je bestanden
+      Index = een buffer zone
+      HEAD = verwijst naar je laatst gemaakte commit
+      
+      
   
   
 
