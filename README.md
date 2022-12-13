@@ -58,7 +58,9 @@ C:\windows\system32>
   
   Ga naar de repository, klik op de groene knop 'Code' en klik op het tabblad SSH. Kopieer de link.
   
-  Maak in de user directory een lege directory aan. Start een command shell en gha naar de lege directory
+  Maak in de user directory een lege directory aan. Start een command shell en ga naar de lege directoryc.
+  
+  
           C:\Users\Mathijs\Python\Hello World>git clone git@github.com:Toasy-Bumbo/IT-Academy-Hello-World.git
           Cloning into 'IT-Academy-Hello-World'...
           The authenticity of host 'github.com (140.82.121.3)' can't be established.
