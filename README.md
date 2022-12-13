@@ -25,7 +25,7 @@ Enter file in which to save the key (C:\Users\<USERNAME>/.ssh/id_rsa):
 Created directory 'C:\Users\<USERNAME>/.ssh'.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in C:\Users\Mathijs/.ssh/id_r<USERNAME>/.ssh/id_rsa.pub.
+Your identification has been saved in C:\Users\<USERNAME>/.ssh/id_r<USERNAME>/.ssh/id_rsa.pub.
 The key fingerprint is:
 SHA256:******************************************* <USERNAME>@<COMPUTERNAME>
 The key's randomart image is:
