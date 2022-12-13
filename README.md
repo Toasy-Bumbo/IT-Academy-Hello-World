@@ -50,6 +50,7 @@ C:\windows\system32>
 
 5. Git installeren
 
-https://git-scm.com/download/win
-winget install --id Git.Git -e --source winget
+  [git download site](https://git-scm.com/download/win)
+
+  winget install --id Git.Git -e --source winget
 
