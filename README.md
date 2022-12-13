@@ -55,4 +55,28 @@ C:\windows\system32>
   [git download site](https://git-scm.com/download/win)
 
   winget install --id Git.Git -e --source winget
+  
+  Ga naar de repository, klik op de groene knop 'Code' en klik op het tabblad SSH. Kopieer de link.
+  
+  Maak in de user directory een lege directory aan. Start een command shell en gha naar de lege directory
+          C:\Users\Mathijs\Python\Hello World>git clone git@github.com:Toasy-Bumbo/IT-Academy-Hello-World.git
+          Cloning into 'IT-Academy-Hello-World'...
+          The authenticity of host 'github.com (140.82.121.3)' can't be established.
+          ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+          This key is not known by any other names.
+          Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+          Please type 'yes', 'no' or the fingerprint: yes
+          Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+          remote: Enumerating objects: 30, done.
+          remote: Counting objects: 100% (30/30), done.
+          remote: Compressing objects: 100% (19/19), done.
+          remote: Total 30 (delta 8), reused 0 (delta 0), pack-reused 0
+          Receiving objects: 100% (30/30), 7.16 KiB | 2.39 MiB/s, done.
+          Resolving deltas: 100% (8/8), done.
+
+          C:\Users\Mathijs\Python\Hello World>
+  
+  Ga met cmd naar de directory
+  
+  
 
