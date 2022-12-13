@@ -1,16 +1,16 @@
 # IT-Academy-Hello-World
 First repository
-1. *Inleiding
+1. _**Inleiding**_
 
-3. *Hoofdstuk 1 Wat is dit?
+3. **Hoofdstuk 1 Wat is dit?**
 
 Dit is een MarkDown file waarin interresante informatie over dit project staat.
 
-3. *Hoofdstuk 2 Hyperinks gebruiken
+3. **Hoofdstuk 2 Hyperinks gebruiken**
 
 [Beste zoekmachine](https://duckduckgo.com)
 
-4. *SSH sleutel maken
+4. **SSH sleutel maken**
 
 ssh-keygen -t ed25519 -C "test@domain.com"
 
@@ -50,7 +50,7 @@ Nu kan je inloggen zonder usename password
       C:\windows\system32>
 
 
-5. *Git installeren
+5. **Git installeren**
 
   [git download site](https://git-scm.com/download/win)
 
