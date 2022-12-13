@@ -14,6 +14,8 @@ Dit is een MarkDown file waarin interresante informatie over dit project staat.
 
 ssh-keygen -t ed25519 -C "test@domain.com"
 
+(-t is de codering. Kan ook alleen ssh-keygen <enter> op de commandline en alleen mailadres opgeven, dan wordt een andere codering gebruikt) 
+
 Gebruik hierbij je eigen e-mail addres waarmee je in Github inlogd
 
 Kopieer de publieke sleutel uit de ~/.ssh directory uit het bestand met de naam zoals in de stappen hierboven is aangegeven (C:\Users\<USERNAME>\.ssh\id_rsa.pub).
