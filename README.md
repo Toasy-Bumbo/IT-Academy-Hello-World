@@ -87,6 +87,10 @@ Nu kan je inloggen zonder usename password
       Index = een buffer zone
       HEAD = verwijst naar je laatst gemaakte commit
       
+      In Visual studio COde -> Open Folder (Folder waarin je Git Clone op hebt uitgevoerd)
+      
+      Maak nun een wijziging in readme.md aan en het wijzigd nu ook in GitHub ;)
+      
       
   
   
