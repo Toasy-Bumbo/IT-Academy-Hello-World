@@ -1,22 +1,22 @@
 # IT-Academy-Hello-World
 First repository
-1. Inleiding
+1. *Inleiding
 
-3. Hoofdstuk 1 Wat is dit?
+3. *Hoofdstuk 1 Wat is dit?
 
 Dit is een MarkDown file waarin interresante informatie over dit project staat.
 
-3. Hoofdstuk 2 Hyperinks gebruiken
+3. *Hoofdstuk 2 Hyperinks gebruiken
 
 [Beste zoekmachine](https://duckduckgo.com)
 
-4. SSH sleutel maken
+4. *SSH sleutel maken
 
 ssh-keygen -t ed25519 -C "test@domain.com"
 
 (-t is de codering. Kan ook alleen ssh-keygen <enter> op de commandline en alleen mailadres opgeven, dan wordt een andere codering gebruikt) 
 
-Gebruik hierbij je eigen e-mail addres waarmee je in Github inlogd
+Gebruik hierbij je eigen e-mail addres waarmee je in Github inlogd.
 
 Kopieer de publieke sleutel uit de ~/.ssh directory uit het bestand met de naam zoals in de stappen hierboven is aangegeven (C:\Users\<USERNAME>\.ssh\id_rsa.pub).
 Let erop om de publieke en niet de private sleutel (C:\Users\<USERNAME>\.ssh\id_rsa)te kopieren . Kopieer de publieke sleutel in Gitlab/GitHub
@@ -50,7 +50,7 @@ Nu kan je inloggen zonder usename password
       C:\windows\system32>
 
 
-5. Git installeren
+5. *Git installeren
 
   [git download site](https://git-scm.com/download/win)
 
@@ -59,7 +59,6 @@ Nu kan je inloggen zonder usename password
   Ga naar de repository, klik op de groene knop 'Code' en klik op het tabblad SSH. Kopieer de link.
   
   Maak in de user directory een lege directory aan. Start een command shell en ga naar de lege directoryc.
-  
   
           C:\Users\Mathijs\Python\Hello World>git clone git@github.com:Toasy-Bumbo/IT-Academy-Hello-World.git
           Cloning into 'IT-Academy-Hello-World'...
@@ -78,7 +77,6 @@ Nu kan je inloggen zonder usename password
 
           C:\Users\Mathijs\Python\Hello World>
   
-  Ga met cmd naar de directory
   
   
 
