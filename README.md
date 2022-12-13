@@ -19,7 +19,9 @@ Gebruik hierbij je eigen e-mail addres waarmee je in Github inlogd
 Kopieer de publieke sleutel uit de ~/.ssh directory uit het bestand met de naam zoals in de stappen hierboven is aangegeven (C:\Users\<USERNAME>\.ssh\id_rsa.pub).
 Let erop om de publieke en niet de private sleutel (C:\Users\<USERNAME>\.ssh\id_rsa)te kopieren . Kopieer de publieke sleutel in Gitlab/GitHub
 IN GitHub, ga naar je profile, klik op settings en ga naar SSH- GPY key.
-Klik New SSH key
+Klik "New SSH key"
+
+Nu kan je inloggen zonder usename password
 
 C:\windows\system32>ssh-keygen
 Generating public/private rsa key pair.
@@ -44,4 +46,10 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 C:\windows\system32>
+
+
+5. Git installeren
+
+https://git-scm.com/download/win
+winget install --id Git.Git -e --source winget
 
